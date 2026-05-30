@@ -1,0 +1,20 @@
+CREATE DATABASE retail_db;
+USE retail_db;
+CREATE TABLE customers
+(
+	customer_id INT,
+    customer_name VARCHAR(100),
+    city VARCHAR(50)
+);
+INSERT INTO customers VALUES
+(1, 'Rahul', 'Hyderabad'),
+(2, 'Priya', 'Bangalore'),
+(3, 'Amit', 'Mumbai');
+SELECT * FROM customers;
+SET SQL_SAFE_UPDATES=0;
+UPDATE customers SET city='Chennai' 
+WHERE customer_id=1; 
+-- SQL defaultly locks the tables without primary key, so using SQL_SAFE_UPDATES to switch it off, once done updating then again switch it on.
+DELETE FROM customers WHERE city='Bangalore';
+SET SQL_SAFE_UPDATES=1;
+SELECT * FROM customers;
