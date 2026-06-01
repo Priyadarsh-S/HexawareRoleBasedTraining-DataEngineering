@@ -24,6 +24,7 @@ INSERT INTO products VALUES
 (2008,'LG Washing Machine','Home Appliances',25999),
 (2009,'Philips Mixer Grinder','Home Appliances',3499),
 (2010,'Puma T-Shirt','Fashion',1299);
+
 INSERT INTO orders VALUES
 (3001,1001,'2026-01-05','Completed'),
 (3002,1002,'2026-01-08','Completed'),
