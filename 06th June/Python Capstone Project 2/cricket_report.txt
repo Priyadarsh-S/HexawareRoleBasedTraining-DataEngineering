@@ -1,0 +1,28 @@
+--- CRICKET REPORT ---
+Total Players: 12
+Total Runs: 6606
+Average Runs: 550.5
+Highest Scorer: Virat Kohli
+Lowest Scorer: MS Dhoni
+
+Team Wise Runs:
+ team
+CSK     890
+GT      620
+KKR     930
+LSG     590
+MI      990
+RCB    1411
+RR     1175
+Name: runs, dtype: int64
+
+Top 5 Players:
+    player_id       player_name team  matches  runs  fours  sixes
+0        101       Virat Kohli  RCB       14   741     62     38
+7        108    Faf du Plessis  RCB       14   670     60     32
+9        110  Yashasvi Jaiswal   RR       14   625     57     30
+2        103      Shubman Gill   GT       14   620     55     28
+4        105   Ruturaj Gaikwad  CSK       14   610     58     24
+
+Most Fours: Virat Kohli
+Most Sixes: Virat Kohli
