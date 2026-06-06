@@ -297,6 +297,7 @@ print("Top selling Products:\n", product_sales.sort_values(ascending=False))
 print("City-wise Orders:\n", df["city"].value_counts())
 
 # Report Generation
+# sales_summary_report.txt
 def generate_summary_report():
     total_orders = len(df)
     total_revenue = df["Revenue"].sum()
@@ -320,16 +321,19 @@ generate_summary_report()
 print("Report Generated Successfully.")
 
 # Bonus Tasks
+# high_value_orders.csv
 high_value_orders = df[df["Revenue"] > 50000]
 high_value_orders.to_csv("high_value_orders.csv", index=False)
 print("high_value_orders.csv File Created.")
 
+# electronics_orders.csv
 electronics_orders = df[df["category"] == "Electronics"]
 electronics_orders.to_csv("electronics_orders.csv", index=False)
 print("electronics_orders.csv File Created.")
 
+# Menu Driven Application
 while True:
-    print("--- Menu Driven Application ---")
+    print("\n--- MENU DRIVEN APPLICATION ---")
     print("1. View Orders\n2. Revenue Analysis\n3. Product Analysis\n4. City Analysis\n5. Export Reports\n6. Exit")
     choice = int(input("Enter choice: "))
     if choice == 1:
@@ -351,4 +355,4 @@ while True:
     elif choice == 6:
         break
     else:
-        print("Invalid Choice.")
+        print("Invalid Choice. Try Again")
