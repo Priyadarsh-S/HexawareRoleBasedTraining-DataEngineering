@@ -1,0 +1,24 @@
+Total Orders: 12
+Total Revenue: 548000
+Average Order Value: 45666.666666666664
+Highest Order Value: 94000
+Lowest Order Value: 13000
+
+Revenue By City
+ city
+Bangalore     95000
+Chennai       70000
+Delhi         92000
+Hyderabad    200000
+Mumbai        69000
+Pune          22000
+Name: Revenue, dtype: int64
+
+Revenue By Category
+ category
+Electronics    474000
+Furniture       74000
+Name: Revenue, dtype: int64
+
+Top Selling Product: Chair
+Top Revenue Generating City: Hyderabad
