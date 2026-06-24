@@ -1,0 +1,16 @@
+order_id,supplier_id,item_name,stock_level,delivery_date,status
+101,5,Microchips Type-A,120,2026-06-15,Delivered
+102,1,Aluminium Casings,5,,Pending
+103,2,Lithium Battery Packs,14,2026-06-28,Shipped
+104,3,Copper Wiring Reels,200,2026-06-10,Delivered
+105,4,Fiber Optic Transceivers,9,2026-06-01,Delivered
+106,5,Microchips Type-B,45,2026-06-20,Delivered
+107,2,Solid State Drives,3,2026-05-25,Delivered
+108,1,Steel Brackets,88,,Processing
+109,3,Rubber Seals,350,2026-06-12,Delivered
+110,4,Sensor Modules,12,2026-07-05,Shipped
+111,5,Power Adapters,110,2026-06-18,Delivered
+112,1,Cooling Fans,8,2026-06-05,Delivered
+113,2,LED Displays,0,,Pending
+114,3,Capacitors Pack,500,2026-06-22,Delivered
+115,4,Circuit Boards,19,2026-06-14,Delivered
