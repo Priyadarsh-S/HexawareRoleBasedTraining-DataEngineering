@@ -1,0 +1,16 @@
+order_id,customer_id,customer_name,delivery_date,delivery_issue
+501,1001,Alice Smith,2026-06-14,None
+502,1002,Bob Jones,2026-06-25,Sorting Hub Delay
+503,1003,Charlie Brown,2026-06-16,None
+504,1004,Diana Prince,2026-06-26,Damaged in Transit
+505,1005,Evan Wright,,Weather Block
+506,1001,Alice Smith,2026-06-20,None
+507,1002,Bob Jones,2026-06-27,Sorting Hub Delay
+508,1003,Charlie Brown,,Lost in Transit
+509,1004,Diana Prince,2026-06-10,None
+510,1005,Evan Wright,2026-06-24,None
+511,1001,Alice Smith,2026-06-15,Sorting Hub Delay
+512,1002,Bob Jones,2026-06-05,None
+513,1003,Charlie Brown,2026-06-26,Incorrect Address
+514,1004,Diana Prince,2026-06-18,None
+515,1005,Evan Wright,2026-06-25,Damaged in Transit
