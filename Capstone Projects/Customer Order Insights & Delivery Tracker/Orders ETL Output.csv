@@ -1,0 +1,14 @@
+order_id,customer_id,customer_name,delivery_date,delivery_issue,delay_days,is_delayed,latest_delivery_status
+501,1001,Alice Smith,2026-06-14,Unreported Issue,12,1,Delayed
+502,1002,Bob Jones,2026-06-25,Sorting Hub Delay,1,1,Delayed
+503,1003,Charlie Brown,2026-06-16,Unreported Issue,10,1,Delayed
+504,1004,Diana Prince,2026-06-26,Damaged in Transit,0,0,Delivered On Time
+506,1001,Alice Smith,2026-06-20,Unreported Issue,6,1,Delayed
+507,1002,Bob Jones,2026-06-27,Sorting Hub Delay,-1,0,Early Delivery
+509,1004,Diana Prince,2026-06-10,Unreported Issue,16,1,Delayed
+510,1005,Evan Wright,2026-06-24,Unreported Issue,2,1,Delayed
+511,1001,Alice Smith,2026-06-15,Sorting Hub Delay,11,1,Delayed
+512,1002,Bob Jones,2026-06-05,Unreported Issue,21,1,Delayed
+513,1003,Charlie Brown,2026-06-26,Incorrect Address,0,0,Delivered On Time
+514,1004,Diana Prince,2026-06-18,Unreported Issue,8,1,Delayed
+515,1005,Evan Wright,2026-06-25,Damaged in Transit,1,1,Delayed
