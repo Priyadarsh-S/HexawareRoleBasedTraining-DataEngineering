@@ -1,0 +1,6 @@
+customer_id,customer_name,delivery_city,customer_tier
+1001,Alice Smith,New York,Gold
+1002,Bob Jones,Los Angeles,Silver
+1003,Charlie Brown,Chicago,Bronze
+1004,Diana Prince,Houston,Gold
+1005,Evan Wright,Miami,Silver
